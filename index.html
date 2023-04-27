@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="first">
+            <input type="text" id="input" placeholder="0">
+        </div>
+         <div class="second">
+              <button id="first3" onclick="Evaluator('c')">AC</button>
+              <button id="first3" onclick="Evaluator('%')">%</button>
+              <button id="first3" onclick="Evaluator('00')">00</button>
+              <button class="special" id="first3" onclick="Evaluator('/')">&#xF7</button>
+         </div>
+         <div class="third">
+            <button onclick="Evaluator('7')">7</button>
+            <button onclick="Evaluator('8')">8</button>
+            <button onclick="Evaluator('9')">9</button>
+            <button onclick="Evaluator('*')" class="special">x</button>
+
+            <button onclick="Evaluator('4')">4</button>
+            <button onclick="Evaluator('5')">5</button>
+            <button onclick="Evaluator('6')">6</button>
+            <button class="special" onclick="Evaluator('-')">-</button>
+
+            <button onclick="Evaluator('1')">1</button>
+            <button onclick="Evaluator('2')">2</button>
+            <button onclick="Evaluator('3')">3</button>
+            <button class="special" onclick="Evaluator('+')">+</button>
+
+         </div>
+         <div class="fourth">
+            <button onclick="Evaluator('0')">0</button>
+            <button onclick="Evaluator('.')">.</button>
+            <button class="equal" onclick="Evaluator('=')">=</button>
+         </div>
+
+
+    </div>
+</body>
+</html>
